@@ -1,3 +1,22 @@
+## 提交信息
+
+| 项目 | 内容 |
+| :--- | :--- |
+| 所选方向 | Infra（大模型推理优化） |
+| 完成阶段 | 基础阶段 + 进阶阶段 |
+| 最终分支 | master |
+| 最终版本标签 | submission-v1 |
+| 最终 commit SHA | （等下换成你网页上最新的SHA） |
+| 完成日期 | 2026-10-10 |
+
+## 文件索引
+
+| 内容 | 位置 |
+| :--- | :--- |
+| 基础任务源码 | `Basic Task/development/src/` |
+| 基础任务数据 | `Basic Task/development/results/` |
+| 进阶任务报告 | `README.md` 第六节 |
+| 前端展示截图 | `development/reports/figures/` |
 # ANTLab Infra Tasks
 
 ANTLab Infra 方向的开发考核任务。当前包含大模型推理优化的基础任务与进阶任务，围绕 llama.cpp／llama-server 完成系统开发、性能测量和优化验证，并通过 GitHub 提交代码、测试数据和书面报告。
