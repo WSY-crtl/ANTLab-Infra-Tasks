@@ -1,0 +1,14 @@
+[
+  {"id": 1, "type": "pure_prompt", "prompt": "请用一句话解释什么是人工智能。"},
+  {"id": 2, "type": "pure_prompt", "prompt": "写一首关于春天的五言绝句。"},
+  {"id": 3, "type": "pure_prompt", "prompt": "解释一下什么是量子纠缠，用通俗的语言。"},
+  {"id": 4, "type": "pure_prompt", "prompt": "总结一下《三国演义》中诸葛亮的主要事迹。"},
+  {"id": 5, "type": "office_doc", "prompt": "请整理以下会议纪要，提取出3个行动项：\n\n会议主题：Q3产品迭代规划\n时间：2026年10月9日\n参会人：产品、研发、测试\n讨论内容：\n1. 确认新增用户反馈模块，研发预估需要2周。\n2. 测试团队需在10月15日前完成回归测试用例的编写。\n3. 产品经理下周提交PRD文档。"},
+  {"id": 6, "type": "office_doc", "prompt": "请基于以下制度文档，回答员工出差住宿标准：\n\n《差旅管理制度》第3条：一线城市（北上广深）住宿标准为每人每晚不超过500元，二线城市不超过350元，其他城市不超过250元。超标部分需自行承担。"},
+  {"id": 7, "type": "office_doc", "prompt": "请总结以下邮件的核心诉求，并给出建议回复：\n\n张总您好，我是市场部小李。下周我们计划举办一场新品发布会，需要申请5万元预算用于场地租赁和物料制作。另外希望您能出席并致辞。盼复。"},
+  {"id": 8, "type": "office_doc", "prompt": "请阅读以下项目进度资料，判断是否存在延期风险：\n\n项目A目前已完成需求评审，开发进度70%，测试尚未介入。原计划10月20日上线。距离上线还有8个工作日。"},
+  {"id": 9, "type": "code", "prompt": "请分析以下Python代码，指出其中的bug并修复：\n\ndef calculate_average(nums):\n    total = 0\n    for i in range(len(nums)):\n        total += nums[i]\n    return total / len(nums)\n\nprint(calculate_average([1, 2, 3]))\nprint(calculate_average([]))"},
+  {"id": 10, "type": "code", "prompt": "请为以下场景编写一个Python函数：输入一个包含多个字典的列表，每个字典有'name'和'score'两个键。返回按'score'降序排列后的列表。"}
+]
+
+

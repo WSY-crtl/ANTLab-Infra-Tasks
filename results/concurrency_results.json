@@ -1,0 +1,46 @@
+{
+  "single_concurrency": [
+    {
+      "request_id": "single_1",
+      "status_code": 200,
+      "latency": 0.72
+    },
+    {
+      "request_id": "single_2",
+      "status_code": 200,
+      "latency": 0.36
+    },
+    {
+      "request_id": "single_3",
+      "status_code": 200,
+      "latency": 0.4
+    }
+  ],
+  "multi_concurrency": [
+    {
+      "request_id": "concurrent_1",
+      "status_code": 200,
+      "latency": 0.6
+    },
+    {
+      "request_id": "concurrent_2",
+      "status_code": 200,
+      "latency": 0.66
+    },
+    {
+      "request_id": "concurrent_3",
+      "status_code": 200,
+      "latency": 0.5
+    },
+    {
+      "request_id": "concurrent_4",
+      "status_code": 200,
+      "latency": 0.51
+    },
+    {
+      "request_id": "concurrent_5",
+      "status_code": 200,
+      "latency": 0.99
+    }
+  ]
+}
